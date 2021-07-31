@@ -1,6 +1,5 @@
 const app = require('express')();
 
-//
 const faunadb = require('faunadb');
 const client = new faunadb.Client({ secret: '305224315390919180' })
 
